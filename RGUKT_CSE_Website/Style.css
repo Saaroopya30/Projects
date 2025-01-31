@@ -1,0 +1,149 @@
+header #logo{
+    display: flex;
+}
+
+header div{
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div h1{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+header div img{
+    margin-right: 10px;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cadetblue;
+}
+
+li{
+    float: left;
+    border-right: 1px solid;
+    border-color: blanchedalmond;
+}
+
+li a{
+    display: block;
+    color:beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a:hover{
+    color:black;
+    background-color:cyan;
+}
+
+#body{
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+#welcome h3{
+    text-align: center;
+}
+
+#welcome{
+    padding: 5px 20px;
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(171,233,148,1) 100%);
+    margin: 30px;
+    width: 400px;
+    height:300px;
+    float: left;
+}
+
+#events h3{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:darkturquoise;
+    text-align: center;
+}
+
+#events{
+    margin-top: 10px;
+    background-color:honeydew;
+    height: 300px;
+    width: 800px;
+    margin:20px;
+    float: left;
+    overflow-y:auto;
+}
+
+#events a{
+    background-color: aliceblue;
+    color: black;
+    display: block;
+    padding:12px;
+    text-decoration: none;
+}
+
+#events a:hover{
+    background-color:aquamarine;
+    color: black;
+}
+
+#active{
+    background-color:lightsalmon;
+}
+
+#info{
+    padding: 20px 10px;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+footer {
+    height:50px;
+    background: rgb(189,136,226);
+    background: linear-gradient(90deg, rgba(189,136,226,1) 0%, rgba(203,238,171,1) 50%, rgba(233,189,126,1) 100%);
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+footer a, footer p {
+    margin: 0 10px;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+    text-decoration: none;
+    background: #007bb5;
+    color: white;
+}  
+
+table,th,td{
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+}
